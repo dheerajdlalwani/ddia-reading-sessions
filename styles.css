@@ -1,0 +1,135 @@
+:root {
+  --text-color-light: #222;
+  --background-color-light: #ffffff;
+  --link-color-light: #0077cc;
+  --event-time-light: #333; /* Color for event time in light mode */
+
+  --text-color-dark: #ddd;
+  --background-color-dark: #121212;
+  --link-color-dark: #66b3ff;
+  --event-time-dark: #f0ad4e; /* Color for event time in dark mode */
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  max-width: 720px;
+  margin-inline: auto;
+  line-height: 1.6;
+  color: var(--text-color-light);
+  background-color: var(--background-color-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header,
+main,
+footer {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+}
+
+nav a {
+  color: var(--link-color-light);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+.event-time {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--event-time-light); /* Default color for event time */
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--text-color-dark);
+    background-color: var(--background-color-dark);
+  }
+  h1,
+  h2 {
+    color: #eee;
+  }
+  nav a {
+    color: var(--link-color-dark);
+  }
+  img {
+    border-color: #444;
+  }
+  .event-time {
+    color: var(--event-time-dark); /* Dark mode event time color */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  .event-time {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+
+  .event-time {
+    font-size: 0.9rem;
+  }
+}
