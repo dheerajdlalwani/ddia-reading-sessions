@@ -18,6 +18,6 @@ Focused daily reading of _Designing Data-Intensive Applications_ (DDIA) by Marti
 
 ## Google Calendar Link
 
-You can view and add the event to your Google Calendar by clicking the link below:
+You can view and add the Google Calendar to your account by clicking the link below:
 
-[Add Event to Google Calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzdzZW51aHNtcDVndG90bTk1MDIxdGFmbjFfMjAyNTA0MjdUMTYzMDAwWiBhNDkzODMzNGIzZDhiMTI0MGVjNWI2YzY1YjRlZjkxYTE1ZjMwOGNiMjhmMGQ5ZDJiMTc5MzQ3NDIyZjM1MWU4QGc&tmsrc=a4938334b3d8b1240ec5b6c65b4ef91a15f308cb28f0d9d2b179347422f351e8%40group.calendar.google.com&scp=ALL)
+[Add Google Calendar to your account](https://calendar.google.com/calendar/u/0?cid=YTQ5MzgzMzRiM2Q4YjEyNDBlYzViNmM2NWI0ZWY5MWExNWYzMDhjYjI4ZjBkOWQyYjE3OTM0NzQyMmYzNTFlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
