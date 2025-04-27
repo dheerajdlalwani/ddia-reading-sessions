@@ -11,6 +11,8 @@ Focused daily reading of _Designing Data-Intensive Applications_ (DDIA) by Marti
 
 - Physical copy of DDIA **or**
 - Legally purchased digital version
+- Notebook
+- Pen and Pencil
 
 ## Time
 
